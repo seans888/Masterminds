@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textAllCaps="true"
+            android:text="End User License Agreeement"
+            android:layout_marginTop="8dp"
+            android:padding="16dp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum mattis metus vitae rutrum. Duis dapibus risus eget ipsum consequat, sit amet dapibus augue tristique. Suspendisse consequat dolor risus, scelerisque consequat urna aliquam eget. Vivamus augue leo, pellentesque at nisi ut, mattis tristique massa. Duis nec purus neque. Nunc feugiat risus arcu, imperdiet pretium lorem vulputate eget. Sed eget interdum eros, ac ullamcorper mauris. Fusce sed auctor diam, id vestibulum risus. Sed quis odio lorem. Maecenas aliquet a metus at posuere. In mattis in mi at consectetur. Sed libero ipsum, semper ac dictum vel, dictum vel turpis. Sed malesuada, ipsum nec pulvinar pulvinar, diam augue facilisis urna, id dictum nulla erat nec nunc.
+
+Cras faucibus dui sed quam accumsan, ac fringilla odio luctus. Vestibulum mauris ante, malesuada venenatis mi eget, fermentum gravida urna. Aenean consectetur, ipsum id semper volutpat, augue purus vestibulum velit, vel egestas enim massa ut risus. Etiam eget varius massa. Etiam venenatis varius cursus. Morbi placerat at elit id fermentum. Sed in odio sed sem lacinia blandit vel ut nulla. Nam orci velit, molestie sed suscipit sit amet, porttitor ultrices urna. Aliquam neque nisl, fringilla sit amet ullamcorper at, fermentum eu purus. Vivamus magna risus, viverra nec libero at, luctus posuere nisl. In convallis turpis magna, eu sodales sem fringilla nec. Suspendisse potenti. Nulla facilisi. Sed hendrerit eleifend nibh eu pharetra.
+
+Aenean vehicula orci odio, in luctus elit tempor a. Mauris dictum cursus mi, at feugiat mi blandit eget. Mauris suscipit egestas cursus. Maecenas eget augue felis. Praesent scelerisque lorem arcu. Maecenas facilisis, orci condimentum egestas bibendum, sem est volutpat sem, vitae auctor massa neque nec massa. In tristique nec mauris fringilla efficitur. Nunc risus lectus, auctor id diam eu, auctor pulvinar ex.
+
+Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean vestibulum enim augue, sed rutrum massa dictum vel. Vestibulum at ornare lorem. Fusce non tincidunt neque, id luctus quam. Suspendisse potenti. Aliquam auctor iaculis libero, vel accumsan arcu posuere tempor. Vivamus vitae ligula et libero vehicula faucibus quis at tortor. Pellentesque sodales vel metus nec tempus.
+
+Sed ut nulla magna. Fusce risus nulla, malesuada sed elit sit amet, facilisis dignissim orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam ac auctor metus. Fusce eu mi vel dolor facilisis sagittis. Nullam placerat nibh non leo hendrerit, eget venenatis purus viverra. Proin dignissim, purus eleifend fringilla scelerisque, velit tellus vestibulum tortor, non facilisis massa augue interdum augue. Proin at lacus et dolor maximus vehicula."
+            android:padding="16dp"/>
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="start"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
