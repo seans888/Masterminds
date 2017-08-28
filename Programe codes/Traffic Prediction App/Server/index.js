@@ -32,3 +32,23 @@
 // 		console.log(result.rows[0]);
 // 	})
 // })
+
+var express = require('express');
+var router = express.Router();
+
+var hostname = '0.0.0.0';
+var port = 3000;
+
+var app = express();
+
+var db = require('./queries');
+
+router.get('/api/origins', db.getAllOrigins);
+router.get('/api/destinations', db.getAllDestinations);
+router.get('/api/jamlevel/:origin/:destination/:day/:hour', db.getJamLevel);
+
+app.use('/', router);
+
+app.listen(port, hostname, function() {
+	console.log('connected');
+})
