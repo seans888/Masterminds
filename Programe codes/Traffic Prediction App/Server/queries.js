@@ -31,3 +31,32 @@ module.exports = {
 };
 
 
+function getAllOrigins(req, res, next) {
+	res.status(200).json(origins);
+}
+
+function getAllDestinations(req, res, next) {
+	res.status(200).json(destinations);
+}
+
+function getJamLevel(req, res, next) {
+	origin = decodeURI(req.params.origin).replace(/\+/g, ' ');
+	destination = decodeURI(req.params.destination).replace(/\+/g, ' ');
+	day = req.params.day;
+	hour = req.params.hour;
+	console.log(origin);
+	console.log(destination);
+	// console.log(req.params);
+	var query = 'select distance, duration from histories where origin = \'' + origin + '\' and destination = \'' + destination + '\'' + 'and day = \'' +  day + '\' and hour = \'' + hour + '\'';
+	db.any(query)
+		.then (function (data) {
+			res.status(200)
+				.json({
+					status: 'success',
+					data: data
+				});
+		})
+		.catch (function (err) {
+			return next(err);
+		});
+}
