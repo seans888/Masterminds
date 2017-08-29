@@ -17,7 +17,7 @@ const cn = {
 	port: 5432,
 	database: 'postgres',
 	user: 'postgres',
-	password: '12345'
+	password: 'Saddssdsdda1'
 };
 
 var db = pgp(cn);
@@ -29,6 +29,7 @@ module.exports = {
   getAllDestinations: getAllDestinations,
   getJamLevel: getJamLevel
 };
+
 
 
 function getAllOrigins(req, res, next) {

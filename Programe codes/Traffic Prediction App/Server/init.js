@@ -2,7 +2,7 @@ var pg = require('pg');
 var format = require('pg-format');
 var PGUSER = 'postgres';
 var PGDATABASE = 'postgres';
-var PGPASSWORD = '12345';
+var PGPASSWORD = 'Saddssdsdda1';
 var age = 732;
 
 var config = {
@@ -52,6 +52,7 @@ var myClient;
 var table_name = 'histories';
 
 var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
 pool.connect(function (err, client, done) {
 	if (err) console.log(err);
 	myClient = client;
