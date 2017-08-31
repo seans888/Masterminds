@@ -1,0 +1,1 @@
+var my_json = require("./response.json");
