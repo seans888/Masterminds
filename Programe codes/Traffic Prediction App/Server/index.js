@@ -14,3 +14,6 @@
 // 	idleTimeoutMillis: 30000
 
 // }
+
+// var pool = new pg.Pool(config);
+// var myClient;
