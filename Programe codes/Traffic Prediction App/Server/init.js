@@ -52,3 +52,7 @@ var myClient;
 var table_name = 'histories';
 
 var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+pool.connect(function (err, client, done) {
+	if (err) console.log(err);
+	myClient = client;
