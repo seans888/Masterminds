@@ -48,3 +48,7 @@ router.get('/api/destinations', db.getAllDestinations);
 router.get('/api/jamlevel/:origin/:destination/:day/:hour', db.getJamLevel);
 
 app.use('/', router);
+
+app.listen(port, hostname, function() {
+	console.log('connected');
+})
