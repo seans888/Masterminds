@@ -5,3 +5,7 @@
 // var PGUSER = 'postgres';
 // var PGDATABASE = 'postgres';
 // var PGPASSWORD = 'Saddssdsdda1';
+
+// var config = {
+// 	user: PGUSER,
+// 	database: PGDATABASE,
