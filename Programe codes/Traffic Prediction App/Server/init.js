@@ -75,3 +75,6 @@ pool.connect(function (err, client, done) {
 
 				var day = days[g];
 				var hour = h;
+
+				var insertQuery = format('INSERT INTO %I VALUES (%L, %L, %L, %L, %L, %L)', 
+						table_name, origin, destination, day, hour, distance, duration);	
