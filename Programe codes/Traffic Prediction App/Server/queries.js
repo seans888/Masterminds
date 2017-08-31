@@ -29,3 +29,7 @@ module.exports = {
   getAllDestinations: getAllDestinations,
   getJamLevel: getJamLevel
 };
+
+function getAllOrigins(req, res, next) {
+	res.status(200).json(origins);
+}
