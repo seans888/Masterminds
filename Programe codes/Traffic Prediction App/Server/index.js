@@ -40,3 +40,5 @@ var hostname = '0.0.0.0';
 var port = 3000;
 
 var app = express();
+
+var db = require('./queries');
