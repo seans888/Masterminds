@@ -86,3 +86,13 @@ pool.connect(function (err, client, done) {
 							console.log(err);
 						}
 						// console.log(result.rows[0]);
+
+						})
+
+				}
+			}
+		}
+	}
+		
+console.log('done');
+
