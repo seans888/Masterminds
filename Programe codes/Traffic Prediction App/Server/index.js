@@ -42,3 +42,7 @@ var port = 3000;
 var app = express();
 
 var db = require('./queries');
+
+router.get('/api/origins', db.getAllOrigins);
+router.get('/api/destinations', db.getAllDestinations);
+router.get('/api/jamlevel/:origin/:destination/:day/:hour', db.getJamLevel);
