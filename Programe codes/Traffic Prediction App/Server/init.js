@@ -42,3 +42,6 @@ var json23 = require("./data/Monday 3.json");
 var my_json = json1;
 
 var jsons = [json0, json1, json2, json3, json4, json5, json6, json7, json8, json9, json10, json11, json12, json13, json14, json15, json16, json17, json18, json19, json20, json21, json22, json23];
+
+var origins = my_json["origin_addresses"];
+var destinations = my_json["destination_addresses"];
