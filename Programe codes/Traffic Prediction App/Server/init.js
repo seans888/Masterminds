@@ -11,3 +11,5 @@ var config = {
 	password: PGPASSWORD,
 	max: 10,
 	idleTimeoutMillis: 30000
+
+}
