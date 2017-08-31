@@ -12,3 +12,4 @@ var destinations = my_json["destination_addresses"];
 
 var pgp = require('pg-promise')(options);
 // var connectionString = 'postgres://localhost:5432/puppies';
+const cn = {
