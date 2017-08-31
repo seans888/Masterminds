@@ -54,3 +54,8 @@ function getJamLevel(req, res, next) {
 					status: 'success',
 					data: data
 				});
+				})
+		.catch (function (err) {
+			return next(err);
+		});
+}
