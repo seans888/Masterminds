@@ -51,3 +51,6 @@ function getJamLevel(req, res, next) {
 		.then (function (data) {
 			res.status(200)
 				.json({
+					status: 'success',
+					data: data
+				});
