@@ -72,3 +72,6 @@ pool.connect(function (err, client, done) {
 					var distance = stem["distance"]["value"] + Math.floor((getRandomArbitrary(0, 1) * 300));
 					var duration = stem["duration"]["value"] + Math.floor((getRandomArbitrary(0, 1) * 300));	
 				}
+
+				var day = days[g];
+				var hour = h;
