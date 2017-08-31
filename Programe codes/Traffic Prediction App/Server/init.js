@@ -66,5 +66,9 @@ pool.connect(function (err, client, done) {
 				var stem = branch["elements"][j];
 
 				if (origin == destination) {
-						distance = 0;
-						duration = 0;
+					distance = 0;
+					duration = 0;
+				} else {
+					var distance = stem["distance"]["value"] + Math.floor((getRandomArbitrary(0, 1) * 300));
+					var duration = stem["duration"]["value"] + Math.floor((getRandomArbitrary(0, 1) * 300));	
+				}
