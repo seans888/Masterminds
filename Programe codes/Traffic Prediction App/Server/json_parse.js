@@ -14,3 +14,9 @@ for (var i = 0; i < origins.length; i++) {
 
 		console.log("FROM: " + current_origin);
 		console.log("TO: " + current_destination);
+
+		console.log("DISTANCE: " + distance);
+		console.log("DURATION: " + duration);
+
+	}
+}
