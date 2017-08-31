@@ -43,3 +43,5 @@ function getJamLevel(req, res, next) {
 	destination = decodeURI(req.params.destination).replace(/\+/g, ' ');
 	day = req.params.day;
 	hour = req.params.hour;
+	console.log(origin);
+	console.log(destination);
