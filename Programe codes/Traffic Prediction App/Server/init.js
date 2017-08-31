@@ -96,3 +96,12 @@ pool.connect(function (err, client, done) {
 		
 console.log('done');
 
+
+
+
+	
+})
+
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
+}
