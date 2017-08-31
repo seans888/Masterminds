@@ -23,3 +23,6 @@ const cn = {
 var db = pgp(cn);
 
 // add query functions
+
+module.exports = {
+  getAllOrigins: getAllOrigins,
