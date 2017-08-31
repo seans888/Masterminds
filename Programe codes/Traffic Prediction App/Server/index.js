@@ -17,3 +17,8 @@
 
 // var pool = new pg.Pool(config);
 // var myClient;
+
+// pool.connect(function (err, client, done) {
+// 	if (err) console.log(err);
+// 	app.listen(3000, function () {
+// 		console.log('listening on 3000')
