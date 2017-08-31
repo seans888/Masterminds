@@ -9,3 +9,5 @@ for (var i = 0; i < origins.length; i++) {
 	for (var j = 0; j < destinations.length; j++) {
 		var current_destination = destinations[j];
 		var stem = branch["elements"][j];
+		var distance = stem["distance"]["value"];
+		var duration = stem["duration"]["value"];
