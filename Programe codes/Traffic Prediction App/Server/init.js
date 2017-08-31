@@ -80,3 +80,9 @@ pool.connect(function (err, client, done) {
 						table_name, origin, destination, day, hour, distance, duration);	
 
 				console.log(insertQuery);
+
+				myClient.query(insertQuery, function (err, result) {
+						if (err) {
+							console.log(err);
+						}
+						// console.log(result.rows[0]);
