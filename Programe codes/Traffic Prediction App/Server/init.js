@@ -60,3 +60,7 @@ pool.connect(function (err, client, done) {
 		for (var h = 0; h < jsons.length; h++) {
 			var origin = origins[i];
 			var branch = jsons[h]["rows"][i];
+
+			for (var j = 0; j < destinations.length; j++) {
+				var destination = destinations[j];
+				var stem = branch["elements"][j];
