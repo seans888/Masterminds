@@ -64,3 +64,7 @@ pool.connect(function (err, client, done) {
 			for (var j = 0; j < destinations.length; j++) {
 				var destination = destinations[j];
 				var stem = branch["elements"][j];
+
+				if (origin == destination) {
+						distance = 0;
+						duration = 0;
