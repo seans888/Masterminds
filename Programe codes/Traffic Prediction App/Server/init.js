@@ -45,3 +45,6 @@ var jsons = [json0, json1, json2, json3, json4, json5, json6, json7, json8, json
 
 var origins = my_json["origin_addresses"];
 var destinations = my_json["destination_addresses"];
+
+var pool = new pg.Pool(config);
+var myClient;
