@@ -17,3 +17,5 @@ const cn = {
 	port: 5432,
 	database: 'postgres',
 	user: 'postgres',
+	password: '12345'
+};
