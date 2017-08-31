@@ -26,3 +26,6 @@ var db = pgp(cn);
 
 module.exports = {
   getAllOrigins: getAllOrigins,
+  getAllDestinations: getAllDestinations,
+  getJamLevel: getJamLevel
+};
