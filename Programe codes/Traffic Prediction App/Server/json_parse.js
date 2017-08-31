@@ -11,3 +11,6 @@ for (var i = 0; i < origins.length; i++) {
 		var stem = branch["elements"][j];
 		var distance = stem["distance"]["value"];
 		var duration = stem["duration"]["value"];
+
+		console.log("FROM: " + current_origin);
+		console.log("TO: " + current_destination);
