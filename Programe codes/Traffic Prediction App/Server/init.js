@@ -56,6 +56,5 @@ var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 
 pool.connect(function (err, client, done) {
 	if (err) console.log(err);
 	myClient = client;
-
 	for (var g = 0; g < days.length; g++) {
 		for (var h = 0; h < jsons.length; h++) {
