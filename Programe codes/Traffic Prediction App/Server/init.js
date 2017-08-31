@@ -58,3 +58,5 @@ pool.connect(function (err, client, done) {
 	myClient = client;
 	for (var g = 0; g < days.length; g++) {
 		for (var h = 0; h < jsons.length; h++) {
+			var origin = origins[i];
+				var branch = jsons[h]["rows"][i];
