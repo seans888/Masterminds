@@ -19,3 +19,7 @@ const cn = {
 	user: 'postgres',
 	password: '12345'
 };
+
+var db = pgp(cn);
+
+// add query functions
