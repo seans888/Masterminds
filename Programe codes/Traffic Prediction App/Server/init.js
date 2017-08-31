@@ -22,3 +22,5 @@ var json4 = require("./data/Monday 4.json");
 var json5 = require("./data/Monday 5.json");
 var json6 = require("./data/Monday 6.json");
 var json7 = require("./data/Monday 7.json");
+var json8 = require("./data/Monday 8.json");
+var json9 = require("./data/Monday 9.json");
