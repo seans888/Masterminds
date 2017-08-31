@@ -32,3 +32,6 @@
 // 		console.log(result.rows[0]);
 // 	})
 // })
+
+var express = require('express');
+var router = express.Router();
