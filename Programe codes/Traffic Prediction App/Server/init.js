@@ -13,3 +13,6 @@ var config = {
 	idleTimeoutMillis: 30000
 
 }
+
+var json0 = require("./data/Monday 0.json");
+var json1 = require("./data/Monday 1.json");
