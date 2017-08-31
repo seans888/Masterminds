@@ -9,3 +9,8 @@
 // var config = {
 // 	user: PGUSER,
 // 	database: PGDATABASE,
+// 	password: PGPASSWORD,
+// 	max: 10,
+// 	idleTimeoutMillis: 30000
+
+// }
