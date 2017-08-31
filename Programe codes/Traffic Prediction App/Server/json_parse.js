@@ -6,3 +6,4 @@ var destinations = my_json["destination_addresses"];
 for (var i = 0; i < origins.length; i++) {
 	var current_origin = origins[i];
 	var branch = my_json["rows"][i];
+	for (var j = 0; j < destinations.length; j++) {
