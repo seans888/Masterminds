@@ -78,3 +78,5 @@ pool.connect(function (err, client, done) {
 
 				var insertQuery = format('INSERT INTO %I VALUES (%L, %L, %L, %L, %L, %L)', 
 						table_name, origin, destination, day, hour, distance, duration);	
+
+				console.log(insertQuery);
