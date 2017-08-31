@@ -22,3 +22,7 @@
 // 	if (err) console.log(err);
 // 	app.listen(3000, function () {
 // 		console.log('listening on 3000')
+// 	});
+// 	myClient = client;
+// 	var ageQuery = format('SELECT * from numbers WHERE age = %L', age);	
+// 	myClient.query(ageQuery, function (err, result) {
