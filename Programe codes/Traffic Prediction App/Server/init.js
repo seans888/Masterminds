@@ -48,3 +48,7 @@ var destinations = my_json["destination_addresses"];
 
 var pool = new pg.Pool(config);
 var myClient;
+
+var table_name = 'histories';
+
+var days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
