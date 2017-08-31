@@ -32,3 +32,5 @@ var json14 = require("./data/Monday 14.json");
 var json15 = require("./data/Monday 15.json");
 var json16 = require("./data/Monday 16.json");
 var json17 = require("./data/Monday 17.json");
+var json18 = require("./data/Monday 18.json");
+var json19 = require("./data/Monday 19.json");
