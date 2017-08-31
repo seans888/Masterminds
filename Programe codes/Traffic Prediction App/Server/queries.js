@@ -49,3 +49,5 @@ function getJamLevel(req, res, next) {
 	var query = 'select distance, duration from histories where origin = \'' + origin + '\' and destination = \'' + destination + '\'' + 'and day = \'' +  day + '\' and hour = \'' + hour + '\'';
 	db.any(query)
 		.then (function (data) {
+			res.status(200)
+				.json({
