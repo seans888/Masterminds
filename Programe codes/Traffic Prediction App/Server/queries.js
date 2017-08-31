@@ -37,3 +37,7 @@ function getAllOrigins(req, res, next) {
 function getAllDestinations(req, res, next) {
 	res.status(200).json(destinations);
 }
+
+function getJamLevel(req, res, next) {
+	origin = decodeURI(req.params.origin).replace(/\+/g, ' ');
+	destination = decodeURI(req.params.destination).replace(/\+/g, ' ');
